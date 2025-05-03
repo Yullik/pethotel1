@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo apt update -y
-sudo apt install apache2 -y
-sudo systemctl start apache2
-sudo systemctl enable apache2
+yum update -y
+yum install -y httpd
+systemctl start httpd
+systemctl enable httpd
